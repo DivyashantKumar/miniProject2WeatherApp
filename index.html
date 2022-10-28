@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2ndMiniProject</title>
+    <link rel="icon" type="image/x-icon" href="/">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./index.css">
+
+    <!-- Font used in the app -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="./index.js" defer></script>
+
+</head>
+<body onload="display()">
+    
+    <div class="imageContainer">
+        <img src="./images/cloudy.jpg" alt="image"/>
+    </div>
+    
+    
+    <div class="appContainer">
+        <div class="inputBox">
+            <input id="loc" type="text" placeholder="Enter country name" />
+            <label for="loc">
+                <div class="searchIcon">
+                    <img  src="./images/search icon.png" alt="searchIcon">
+                </div>
+            </label>
+                        
+            <ul id="list"></ul>
+        </div>
+        <div>
+            <h2 class="countryName" id="countryName">Weather in Nowhere</h2>
+            <h2 class="temp" id="temp" style="font-size: xx-large; font-weight: 400;"> 35.40<sup>o</sup>C</h2>
+            <h4 class="cloud" id="cloud">Cloudy</h4>
+            <h4 class="humidity" id="humidity">Humidity</h4>
+            <h4 class="windSpeed" id="windSpeed">Wind speed</h4>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
